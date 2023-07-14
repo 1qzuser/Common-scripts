@@ -5,13 +5,13 @@ import re
 import time
 
 # 这里是你要签到的超话的id，每个超话的不一样，多个的话请用英文逗号隔开，例如‘[AA’,‘BB’].获取方式：进入到超话界面，地址栏中的地址的p/和/super_index之间的这一串
-ids = ['']
+ids = ['100808b0c63fc9170be777c03a2c6611774638','100808cb8f14090af3caeebba04103cc7f8ce9','100808a68f5614d6305a17228a0f7b04d54036']
 # 这里是选择Server酱的推送方式，填写Sendkey，不想使用的话直接忽略
 SCKEY = ''
 # 推送PLUS的token
-Token = ''
+Token = '2330572e45b34328a60988310b5aa345'
 # 这里填写你的COOKIE
-cookie = ''
+cookie = 'tgc=TGT-NjQ2MDIwMTI2OA==-1689299995-yf-D2A7BFD0AE95F7CFBE3A23DB06708A4A-1; SUB=_2A25JtNxLDeRhGeBK7VIT8C_OzTSIHXVqwEqDrDV_PUNbm9ANLVnEkW9NR7Fy9B6dh-3lBWTYZf7ept6NWG7dKOni; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WF7D5V3mc2c-c-xnO3W5HHQ5JpX5KzhUgL.FoqXSo5Eeh2ESon2dJLoIEBLxK.L1K.L1hnLxKqL1KMLBKMLxKqL1-eLB-BLxKnLB--LBo5t; ALC=ac%3D27%26bt%3D1689299995%26cv%3D6.0%26et%3D1691891995%26ic%3D2071795668%26login_time%3D1689299995%26scf%3D%26uid%3D6460201268%26vf%3D0%26vs%3D1%26vt%3D0%26es%3D999d582501d5f046c86600345a2c9031; ALF=1691891995; LT=1689299995;'
 # 推送函数
 def push(content):
     if SCKEY != '':
